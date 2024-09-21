@@ -9,7 +9,8 @@ const UserContext = React.createContext();
 axios.defaults.withCredentials = true;
 
 export const UserContextProvider = ({ children }) => {
-  const serverUrl = "http://localhost:8000";
+  // const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://task-manager-seven-eta-45.vercel.app/";
 
   const router = useRouter();
 
